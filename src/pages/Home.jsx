@@ -3,6 +3,7 @@ import ThemeToggle from '@/components/ThemeToggle'
 import BackGroundEffect from '@/components/BackGroundEffect'
 import Navbar from '../components/Navbar'
 import HeroSection from '@/components/HeroSection'
+import AboutSection from '@/components/AboutSection'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       {/* Main Content */}
         <main>
           <HeroSection/>
+          <AboutSection/>
         </main>
 
       {/* Footer */}
